@@ -6,7 +6,7 @@ This project implements orchestra conductor game with aim to simulate
 ##How to use:
 
 1. Add IP directory to the list of IP repostiories in Vivado Project Settings.
-2. Open <> project synthesize and generate bitstream.
+2. Open /src/ov7670_marker_tracker_use/ov7670_marker_tracker_use.xpr project synthesize and generate bitstream.
 3. Make sure Implemented design and block diagrams are open (by clicking Implemented design
 in Vivado and Open Block Diagram menu options.
 4. Program the board (which can be done from the SDK as well)
