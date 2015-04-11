@@ -22,25 +22,33 @@ Notes on gesture recognition.
 Directory structure:
 
 /src/
+
 	IP/
+	
 		song_ip_1.0/
+		
 			This directory contains the song-ip custom core used to generate the doundtrack
 			for which we will be changing the tempo.
 				
 		ov7670_marker_tracker_ip/
+		
 			This is the custom
 			
 	ov7670_marker_tracker_use/
 		This directory contains the entire project created in Vivado 2014.1
 		
 /doc/
+
 	Contains project report and presentation files.
 	
 Authors:
 
 Parul Seth
+
 Hardik Patel
+
 Marian Kotormus
+
 
 Aknowledgements:
 
