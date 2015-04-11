@@ -1,35 +1,35 @@
 /*
- * Copyright (c) 2009-2012 Xilinx, Inc.  All rights reserved.
- *
- * Xilinx, Inc.
- * XILINX IS PROVIDING THIS DESIGN, CODE, OR INFORMATION "AS IS" AS A
- * COURTESY TO YOU.  BY PROVIDING THIS DESIGN, CODE, OR INFORMATION AS
- * ONE POSSIBLE   IMPLEMENTATION OF THIS FEATURE, APPLICATION OR
- * STANDARD, XILINX IS MAKING NO REPRESENTATION THAT THIS IMPLEMENTATION
- * IS FREE FROM ANY CLAIMS OF INFRINGEMENT, AND YOU ARE RESPONSIBLE
- * FOR OBTAINING ANY RIGHTS YOU MAY REQUIRE FOR YOUR IMPLEMENTATION.
- * XILINX EXPRESSLY DISCLAIMS ANY WARRANTY WHATSOEVER WITH RESPECT TO
- * THE ADEQUACY OF THE IMPLEMENTATION, INCLUDING BUT NOT LIMITED TO
- * ANY WARRANTIES OR REPRESENTATIONS THAT THIS IMPLEMENTATION IS FREE
- * FROM CLAIMS OF INFRINGEMENT, IMPLIED WARRANTIES OF MERCHANTABILITY
- * AND FITNESS FOR A PARTICULAR PURPOSE.
- *
- */
+* Copyright (c) 2009-2012 Xilinx, Inc.  All rights reserved.
+*
+* Xilinx, Inc.
+* XILINX IS PROVIDING THIS DESIGN, CODE, OR INFORMATION "AS IS" AS A
+* COURTESY TO YOU.  BY PROVIDING THIS DESIGN, CODE, OR INFORMATION AS
+* ONE POSSIBLE   IMPLEMENTATION OF THIS FEATURE, APPLICATION OR
+* STANDARD, XILINX IS MAKING NO REPRESENTATION THAT THIS IMPLEMENTATION
+* IS FREE FROM ANY CLAIMS OF INFRINGEMENT, AND YOU ARE RESPONSIBLE
+* FOR OBTAINING ANY RIGHTS YOU MAY REQUIRE FOR YOUR IMPLEMENTATION.
+* XILINX EXPRESSLY DISCLAIMS ANY WARRANTY WHATSOEVER WITH RESPECT TO
+* THE ADEQUACY OF THE IMPLEMENTATION, INCLUDING BUT NOT LIMITED TO
+* ANY WARRANTIES OR REPRESENTATIONS THAT THIS IMPLEMENTATION IS FREE
+* FROM CLAIMS OF INFRINGEMENT, IMPLIED WARRANTIES OF MERCHANTABILITY
+* AND FITNESS FOR A PARTICULAR PURPOSE.
+*
+*/
 
 /*
- * helloworld.c: simple test application
- *
- * This application configures UART 16550 to baud rate 9600.
- * PS7 UART (Zynq) is not initialized by this application, since
- * bootrom/bsp configures it to baud rate 115200
- *
- * ------------------------------------------------
- * | UART TYPE   BAUD RATE                        |
- * ------------------------------------------------
- *   uartns550   9600
- *   uartlite    Configurable only in HW design
- *   ps7_uart    115200 (configured by bootrom/bsp)
- */
+* helloworld.c: simple test application
+*
+* This application configures UART 16550 to baud rate 9600.
+* PS7 UART (Zynq) is not initialized by this application, since
+* bootrom/bsp configures it to baud rate 115200
+*
+* ------------------------------------------------
+* | UART TYPE   BAUD RATE                        |
+* ------------------------------------------------
+*   uartns550   9600
+*   uartlite    Configurable only in HW design
+*   ps7_uart    115200 (configured by bootrom/bsp)
+*/
 
 #include <stdio.h>
 #include <xil_types.h>
@@ -74,16 +74,16 @@ static unsigned int * g_vga_draw_buffer;
 static int g_gesture_buffer_count = 0;
 
 /*
- * Stores points of gesture as sequentials pairs of x,y values
- *      index 0  1  2  3  4  5   ...
- * i.e. value x1,y1,x2,y2,x3,y3, ...
- */
+* Stores points of gesture as sequentials pairs of x,y values
+*      index 0  1  2  3  4  5   ...
+* i.e. value x1,y1,x2,y2,x3,y3, ...
+*/
 static int g_gesture_buffer[GESTURE_BUFFER_SIZE];
 
 void vga_draw_pixel(int x, int y, int clr)
 {
 	unsigned int *a = (unsigned int *)g_vga_draw_buffer;
-	a[XY_TO_I(x,y)] = clr;
+	a[XY_TO_I(x, y)] = clr;
 	//if(x == 639 && y == 479)
 	//	xil_printf("clearing %d %d %x\n", x, y, &a[XY_TO_I(x,y)]);
 }
@@ -92,7 +92,7 @@ void vga_clear_screen(int clr)
 {
 	u32 j = 0;
 	u32 i = 0;
-	for(i = 0; i < 640; i++)
+	for (i = 0; i < 640; i++)
 	for (j = 0; j < 512; j++)
 	{
 		vga_draw_pixel(i, j, clr);		//Write Y
@@ -114,18 +114,18 @@ void vga_stop()
 }
 
 /*
- * Swap's back buffer and currently displaying buffer
- */
+* Swap's back buffer and currently displaying buffer
+*/
 /*void vga_swap()
 {
-	vga_dispay_buffer = buffer;
-	*(vga_base + 1) = 0;
-	*vga_base = buffer;
-	*(vga_base + 1) = 1;
-	//Ugly timer: Need to wait 16.8 ms or 420,000 on 25 Mhz clock
-	//before updating next frame per TFT IP core documentation
-	u64 i = 5000000;
-	while (i>0) i--;
+vga_dispay_buffer = buffer;
+*(vga_base + 1) = 0;
+*vga_base = buffer;
+*(vga_base + 1) = 1;
+//Ugly timer: Need to wait 16.8 ms or 420,000 on 25 Mhz clock
+//before updating next frame per TFT IP core documentation
+u64 i = 5000000;
+while (i>0) i--;
 }*/
 
 void mt_config(int r, int g, int b)
@@ -139,7 +139,7 @@ void mt_config(int r, int g, int b)
 
 void mt_start()
 {
-	*(g_mt_base + 1) =  *(g_mt_base + 1)|1;
+	*(g_mt_base + 1) = *(g_mt_base + 1) | 1;
 }
 
 void mt_stop()
@@ -158,16 +158,16 @@ void mt_disable_interrupts()
 }
 
 /**
- * Get's marker's x and y.
- * Can be used with interrupts or in polling mode
- * as marker position always stays valid, unless disabled
- * or reset.
- *
- * valid range for x: 0 to 320
- * valid range for y: 0 to 240
- * anything else is considered as no data
- * 	x = 0x1FFFF and y = 0x1FFFF
- */
+* Get's marker's x and y.
+* Can be used with interrupts or in polling mode
+* as marker position always stays valid, unless disabled
+* or reset.
+*
+* valid range for x: 0 to 320
+* valid range for y: 0 to 240
+* anything else is considered as no data
+* 	x = 0x1FFFF and y = 0x1FFFF
+*/
 void mt_get_marker(u32 *x, u32 *y)
 {
 	unsigned int *base = (unsigned int *)XPAR_OV7670_MARKER_TRACKER_IP_0_S00_AXI_BASEADDR;
@@ -175,39 +175,40 @@ void mt_get_marker(u32 *x, u32 *y)
 	u32 i_y = *(base + 3);
 
 	//BUG: for some reason all high when cannot find value, as opposed to all 0
-	if(i_x <= 320 && i_y <= 240)
+	if (i_x <= 320 && i_y <= 240)
 	{
 		*x = i_x;
 		*y = i_y;
-	}else{
+	}
+	else{
 		*x = 0x1FFFF;
 		*y = 0x1FFFF;
 	}
 }
 
 /*
- * This is marker tracker ISR. It will be triggered on scan completion
- * of every frame from a camera, and can be used to retrieve
- * current known location of a marker (from the past frame).
- *
- * The interrupt triggers only when a valid marker position was detected at
- * last scanned frame. If no marker was found, no interrupts arrive.
- *
- * All it does is fills gesture buffer with x,y points and stops until
- * the buffer is clear.
- */
+* This is marker tracker ISR. It will be triggered on scan completion
+* of every frame from a camera, and can be used to retrieve
+* current known location of a marker (from the past frame).
+*
+* The interrupt triggers only when a valid marker position was detected at
+* last scanned frame. If no marker was found, no interrupts arrive.
+*
+* All it does is fills gesture buffer with x,y points and stops until
+* the buffer is clear.
+*/
 void MarkerTrackerISR(void *InstancePtr)
 {
-    u32 x, y;
+	u32 x, y;
 	mt_get_marker(&x, &y);
 	//xil_printf(",%d, %d", x, y);
 
-	if(g_gesture_buffer_count < GESTURE_BUFFER_SIZE)
+	if (g_gesture_buffer_count < GESTURE_BUFFER_SIZE)
 	{
-		g_gesture_buffer[g_gesture_buffer_count] = 320-x;
-		g_gesture_buffer[g_gesture_buffer_count+1] = y;
-		g_gesture_buffer_count+=2;
-		vga_draw_pixel(320-x,y, WHITE);
+		g_gesture_buffer[g_gesture_buffer_count] = 320 - x;
+		g_gesture_buffer[g_gesture_buffer_count + 1] = y;
+		g_gesture_buffer_count += 2;
+		vga_draw_pixel(320 - x, y, WHITE);
 	}
 
 	XIntc_Acknowledge(&g_intc, XPAR_MICROBLAZE_0_AXI_INTC_OV7670_MARKER_TRACKER_IP_0_INTR_INTR);
@@ -233,23 +234,23 @@ static int SetupIntrSystem()
 {
 	int Status;
 
-	XIntc *IntcInstancePtr =&g_intc;
+	XIntc *IntcInstancePtr = &g_intc;
 
 
 	/* Initialize the interrupt controller and connect the ISRs */
 	Status = XIntc_Initialize(IntcInstancePtr, INTC_DEVICE_ID);
 	if (Status != XST_SUCCESS) {
 
-		xil_printf( "Failed init intc\r\n");
+		xil_printf("Failed init intc\r\n");
 		return XST_FAILURE;
 	}
 
 	Status = XIntc_Connect(IntcInstancePtr, XPAR_MICROBLAZE_0_AXI_INTC_OV7670_MARKER_TRACKER_IP_0_INTR_INTR,
-	         (XInterruptHandler)MarkerTrackerISR, NULL);
+		(XInterruptHandler)MarkerTrackerISR, NULL);
 	if (Status != XST_SUCCESS) {
 
 		xil_printf(
-		    "Failed write channel connect intc %d\r\n", Status);
+			"Failed write channel connect intc %d\r\n", Status);
 		return XST_FAILURE;
 	}
 
@@ -257,7 +258,7 @@ static int SetupIntrSystem()
 	Status = XIntc_Start(IntcInstancePtr, XIN_REAL_MODE);
 	if (Status != XST_SUCCESS) {
 
-		xil_printf( "Failed to start intc\r\n");
+		xil_printf("Failed to start intc\r\n");
 		return XST_FAILURE;
 	}
 
@@ -267,8 +268,8 @@ static int SetupIntrSystem()
 
 	Xil_ExceptionInit();
 	Xil_ExceptionRegisterHandler(XIL_EXCEPTION_ID_INT,
-			(Xil_ExceptionHandler)XIntc_InterruptHandler,
-			(void *)IntcInstancePtr);
+		(Xil_ExceptionHandler)XIntc_InterruptHandler,
+		(void *)IntcInstancePtr);
 
 	Xil_ExceptionEnable();
 
@@ -276,21 +277,22 @@ static int SetupIntrSystem()
 }
 
 struct seq
-{ 	int *seqX;
-    int *seqY;
-    int size;
+{
+	int *seqX;
+	int *seqY;
+	int size;
 };
 
 struct seq sequence1, sequence2, sequence3, sequence4;
 
-int X1[] = {0,0,0,1,1}; // h
-int Y1[] = {0,1,0,0,1};
-int X2[] = {0,1,1,0}; //u
-int Y2[] = {0,0,1,1};
-int X3[] = {1,0,0,1,0};
-int Y3[] = {0,0,1,1,1}; //s
-int X4[] = {1,0,0,1,1}; // zero
-int Y4[] = {0,0,1,1,0};
+int X1[] = { 0, 0, 0, 1, 1 }; // h
+int Y1[] = { 0, 1, 0, 0, 1 };
+int X2[] = { 0, 1, 1, 0 }; //u
+int Y2[] = { 0, 0, 1, 1 };
+int X3[] = { 1, 0, 0, 1, 0 };
+int Y3[] = { 0, 0, 1, 1, 1 }; //s
+int X4[] = { 1, 0, 0, 1, 1 }; // zero
+int Y4[] = { 0, 0, 1, 1, 0 };
 
 
 int CT[GESTURE_BUFFER_SIZE];
@@ -300,207 +302,212 @@ int yy[20];
 void seq_generator(int *pos, int frames)
 {
 
-    //int frames = 120;
+	//int frames = 120;
 
-    int j = 0;
-    int i;
+	int j = 0;
+	int i;
 
-    //int *CyT = malloc(frames*sizeof(int));
-    int maxX = pos[0];
-    int maxY = pos[1];
-    int minX = pos[0];
-    int minY = pos[1];
-    //sequence.seqX = (int*)malloc(20*sizeof(int));
-    //sequence.seqY = (int*)malloc(20*sizeof(int));
-    for(i=0; i<frames; i=i+2)
-    {
-        if(pos[i] <= minX)
-            minX = pos[i];
-        else if(pos[i+1] <= minY)
-            minY = pos[i+1];
-        if(pos[i] >= maxX)
-            maxX = pos[i];
-        else if(pos[i+1] >= maxY)
-            maxY = pos[i+1];
-    }
-    //printf("%d ",minX);
-    //printf("%d ",maxX);
+	//int *CyT = malloc(frames*sizeof(int));
+	int maxX = pos[0];
+	int maxY = pos[1];
+	int minX = pos[0];
+	int minY = pos[1];
+	//sequence.seqX = (int*)malloc(20*sizeof(int));
+	//sequence.seqY = (int*)malloc(20*sizeof(int));
+	for (i = 0; i<frames; i = i + 2)
+	{
+		if (pos[i] <= minX)
+			minX = pos[i];
+		else if (pos[i + 1] <= minY)
+			minY = pos[i + 1];
+		if (pos[i] >= maxX)
+			maxX = pos[i];
+		else if (pos[i + 1] >= maxY)
+			maxY = pos[i + 1];
+	}
+	//printf("%d ",minX);
+	//printf("%d ",maxX);
 
-    int midX = (maxX + minX)/2;
-    int midY = (maxY + minY)/2;
-    for(i = 0; i<frames; i=i+2)
-    {
+	int midX = (maxX + minX) / 2;
+	int midY = (maxY + minY) / 2;
+	for (i = 0; i<frames; i = i + 2)
+	{
 		CT[i] = pos[i] - midX;
-        CT[i+1] = pos[i+1] - midY;
-        //printf("%d ", CxT[i]);
-    }
-    for(i = 0; i<frames; i=i+2)
-    {
-		if( CT[i] > 0 )
+		CT[i + 1] = pos[i + 1] - midY;
+		//printf("%d ", CxT[i]);
+	}
+	for (i = 0; i<frames; i = i + 2)
+	{
+		if (CT[i] > 0)
 			CT[i] = 1;
-        if(CT[i]	<= 0)
-            CT[i] = 0;
-        if( CT[i+1] > 0 )
-            CT[i+1] = 1;
-        if(CT[i+1]	<= 0)
-            CT[i+1] = 0;
-    }
-    for( i = 0; i<frames-2; i=i+2)
-    { //printf("%d", CxT[i]);
-        if((CT[i] != CT[i+2]) || (CT[i+1] != CT[i+3]))
+		if (CT[i] <= 0)
+			CT[i] = 0;
+		if (CT[i + 1] > 0)
+			CT[i + 1] = 1;
+		if (CT[i + 1] <= 0)
+			CT[i + 1] = 0;
+	}
+	for (i = 0; i<frames - 2; i = i + 2)
+	{ //printf("%d", CxT[i]);
+		if ((CT[i] != CT[i + 2]) || (CT[i + 1] != CT[i + 3]))
 		{
 			xx[j] = CT[i];
 			//printf("%d ", sequence.seqX[j]);
-			yy[j] = CT[i+1];
+			yy[j] = CT[i + 1];
 			//printf("%d", sequence.seqY[j]);
 			j++;
 		}
-    }
+	}
 
-    xx[j] = CT[i];
-    yy[j] = CT[i+1];
-    //printf("%d ", sequence.seqX[j]);
-    sequence.size = j+1;
-    //return sequence;
-    sequence.seqX = xx;
-    sequence.seqY = yy;
+	xx[j] = CT[i];
+	yy[j] = CT[i + 1];
+	//printf("%d ", sequence.seqX[j]);
+	sequence.size = j + 1;
+	//return sequence;
+	sequence.seqX = xx;
+	sequence.seqY = yy;
 }
 
-int identify (struct seq sequenceTest, int prev_gesture)
-{ 	unsigned int gesture1 = 0;
-    unsigned int gesture2 = 0;
-    unsigned int gesture3 = 0;
-    unsigned int gesture4 = 0;
-    unsigned int gesture = prev_gesture;
-    int i;
+int identify(struct seq sequenceTest, int prev_gesture)
+{
+	unsigned int gesture1 = 0;
+	unsigned int gesture2 = 0;
+	unsigned int gesture3 = 0;
+	unsigned int gesture4 = 0;
+	unsigned int gesture = prev_gesture;
+	int i;
 
-    sequence1.seqX = X1;
-    sequence1.seqY = Y1;
-    sequence1.size = 5;
-    sequence2.seqX = X2;
-    sequence2.seqY = Y2;
-    sequence2.size = 4;
-    sequence3.seqX = X3;
-    sequence3.seqY = Y3;
-    sequence3.size = 5;
-    sequence4.seqX = X4;
-    sequence4.seqY = Y4;
-    sequence4.size = 5;
-    if(sequenceTest.size == sequence1.size)
-    {	for(i = 0; i< sequenceTest.size; i++)
-				{
-                    if(sequenceTest.seqX[i]== sequence1.seqX[i] && sequenceTest.seqY[i]==sequence1.seqY[i])
-                        gesture1++;
-                }
-    }
-    if(sequenceTest.size == sequence2.size)
-    {	for(i = 0; i< sequenceTest.size; i++)
-				{
-                    if(sequenceTest.seqX[i]== sequence2.seqX[i] && sequenceTest.seqY[i]==sequence2.seqY[i])
-                        gesture2++;
-                }
-    }
-    if(sequenceTest.size == sequence3.size)
-    {	for(i = 0; i< sequenceTest.size; i++)
-				{
-                    if(sequenceTest.seqX[i]== sequence3.seqX[i] && sequenceTest.seqY[i]==sequence3.seqY[i])
-                        gesture3++;
-                }
-    }
-   if(sequenceTest.size == sequence4.size)
-    {	for(i = 0; i< sequenceTest.size; i++)
-                {
-                   if(sequenceTest.seqX[i]== sequence4.seqX[i] && sequenceTest.seqY[i]==sequence4.seqY[i])
-                        gesture4++;
-                }
-    }
-    if(gesture1 == sequence1.size)
-        gesture = 0;
-    if(gesture2 == sequence2.size)
-        gesture = 1;
-    if(gesture3 == sequence3.size)
-        gesture = 2;
-    if(gesture4 == sequence4.size)
-       gesture = 3;
+	sequence1.seqX = X1;
+	sequence1.seqY = Y1;
+	sequence1.size = 5;
+	sequence2.seqX = X2;
+	sequence2.seqY = Y2;
+	sequence2.size = 4;
+	sequence3.seqX = X3;
+	sequence3.seqY = Y3;
+	sequence3.size = 5;
+	sequence4.seqX = X4;
+	sequence4.seqY = Y4;
+	sequence4.size = 5;
+	if (sequenceTest.size == sequence1.size)
+	{
+		for (i = 0; i< sequenceTest.size; i++)
+		{
+			if (sequenceTest.seqX[i] == sequence1.seqX[i] && sequenceTest.seqY[i] == sequence1.seqY[i])
+				gesture1++;
+		}
+	}
+	if (sequenceTest.size == sequence2.size)
+	{
+		for (i = 0; i< sequenceTest.size; i++)
+		{
+			if (sequenceTest.seqX[i] == sequence2.seqX[i] && sequenceTest.seqY[i] == sequence2.seqY[i])
+				gesture2++;
+		}
+	}
+	if (sequenceTest.size == sequence3.size)
+	{
+		for (i = 0; i< sequenceTest.size; i++)
+		{
+			if (sequenceTest.seqX[i] == sequence3.seqX[i] && sequenceTest.seqY[i] == sequence3.seqY[i])
+				gesture3++;
+		}
+	}
+	if (sequenceTest.size == sequence4.size)
+	{
+		for (i = 0; i< sequenceTest.size; i++)
+		{
+			if (sequenceTest.seqX[i] == sequence4.seqX[i] && sequenceTest.seqY[i] == sequence4.seqY[i])
+				gesture4++;
+		}
+	}
+	if (gesture1 == sequence1.size)
+		gesture = 0;
+	if (gesture2 == sequence2.size)
+		gesture = 1;
+	if (gesture3 == sequence3.size)
+		gesture = 2;
+	if (gesture4 == sequence4.size)
+		gesture = 3;
 
-    return gesture;
+	return gesture;
 }
 
 
 
 int main()
 {
-    init_platform();
+	init_platform();
 
-    //Configure VGA with default buffer and start
-    vga_start();
+	//Configure VGA with default buffer and start
+	vga_start();
 
-    //Initialize and start marker tracker
-    mt_config(31, 63, 31);
-    mt_enable_interrupts();
-    mt_start();
+	//Initialize and start marker tracker
+	mt_config(31, 63, 31);
+	mt_enable_interrupts();
+	mt_start();
 
-    //Finally configure and enable interrupts
-    SetupIntrSystem();
+	//Finally configure and enable interrupts
+	SetupIntrSystem();
 
-    print("Hello World\n\r");
-    u64 counter = 0;
-    u32 k;
-    int l,m;
-    int sample_count = 0;
-    //Do whatever... can also call mt_get_marker() at any point if need to...
-    //(it keeps last valid value, although it may be old)
-    int gesture =3;
-    while(1)
-    {
-    	counter ++;
-    	if(/*g_gesture_buffer_count+2>=GESTURE_BUFFER_SIZE ||*/ counter > 2*10000000 + 10000000/2)
-    	{
-    		sample_count = g_gesture_buffer_count;
-    		//Wait for certain amount of time (fake timer)
-    		//and if the number of points in g_gesture_buffer_count did not change then it is the size of the gesture...
-    		for(k=0;k<100000;k++);
+	print("Hello World\n\r");
+	u64 counter = 0;
+	u32 k;
+	int l, m;
+	int sample_count = 0;
+	//Do whatever... can also call mt_get_marker() at any point if need to...
+	//(it keeps last valid value, although it may be old)
+	int gesture = 3;
+	while (1)
+	{
+		counter++;
+		if (/*g_gesture_buffer_count+2>=GESTURE_BUFFER_SIZE ||*/ counter > 2 * 10000000 + 10000000 / 2)
+		{
+			sample_count = g_gesture_buffer_count;
+			//Wait for certain amount of time (fake timer)
+			//and if the number of points in g_gesture_buffer_count did not change then it is the size of the gesture...
+			for (k = 0; k<100000; k++);
 
-    		if(sample_count == g_gesture_buffer_count && sample_count != 0)
-    		{
-    			//Run gesture recgn, change the tempo...
-    			//xil_printf("\n");
+			if (sample_count == g_gesture_buffer_count && sample_count != 0)
+			{
+				//Run gesture recgn, change the tempo...
+				//xil_printf("\n");
 				//Buffer filled-up, have another gesture?
 				//xil_printf("Gesture captured, num pts: %d\n",g_gesture_buffer_count);
-				 seq_generator(g_gesture_buffer, g_gesture_buffer_count);
-				 gesture = identify (sequence, gesture);
-				 *songip_ptr = gesture;
-				 xil_printf("\n gesture %d\n", gesture);
-/*
-				 if(gesture == 0)
-				 {
-					 *songip_ptr = 0;
-				 }else if(gesture == 1)
-				 {
-					 *songip_ptr = 1;
-				 }else{
-					 *songip_ptr = 2;
-				 }*/
+				seq_generator(g_gesture_buffer, g_gesture_buffer_count);
+				gesture = identify(sequence, gesture);
+				*songip_ptr = gesture;
+				xil_printf("\n gesture %d\n", gesture);
+				/*
+				if(gesture == 0)
+				{
+				*songip_ptr = 0;
+				}else if(gesture == 1)
+				{
+				*songip_ptr = 1;
+				}else{
+				*songip_ptr = 2;
+				}*/
 
 				//*songip_ptr = 2;
 				//*songip_ptr = 3;
-				 xil_printf("x:");
+				xil_printf("x:");
 
-				 for(l=0;l < g_gesture_buffer_count-1; l+=2){
-					 xil_printf("%d, %d;", g_gesture_buffer[l], g_gesture_buffer[l+1]);
-				 }
-				 xil_printf("\n num: %d\n", g_gesture_buffer_count);
+				for (l = 0; l < g_gesture_buffer_count - 1; l += 2){
+					xil_printf("%d, %d;", g_gesture_buffer[l], g_gesture_buffer[l + 1]);
+				}
+				xil_printf("\n num: %d\n", g_gesture_buffer_count);
 
-		    	//mt_get_marker(&x, &y);
+				//mt_get_marker(&x, &y);
 				//xil_printf("%d, %d\n", x, y);
 
 				vga_clear_screen(DK_GRAY);
 				//At last reset buffer to 0 so that it can get filled-up again...
 				g_gesture_buffer_count = 0;
 				counter = 0;
-    		}
-    		//Else we got more points, keep collecting
-    	}
-    }
-    return 0;
+			}
+			//Else we got more points, keep collecting
+		}
+	}
+	return 0;
 }
