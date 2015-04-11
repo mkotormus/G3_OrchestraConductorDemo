@@ -1,0 +1,488 @@
+00:26:49 INFO  : Processing command line option -hwspec D:/VivadoTutorials/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw/design_1.xml.
+00:30:28 INFO  : Processor reset is completed for microblaze_0
+00:30:55 INFO  : Processor reset is completed for microblaze_0
+00:31:06 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+03:11:46 INFO  : Processing command line option -hwspec D:/VivadoTutorials/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw/design_1.xml.
+03:11:47 INFO  : The hardware specification for project 'hw_platform_0' is different from D:/VivadoTutorials/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw/design_1.xml.
+03:11:47 INFO  : Copied contents of D:/VivadoTutorials/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw/design_1.xml into \hw_platform_0\system.xml.
+03:11:47 INFO  : Copied contents of D:\VivadoTutorials\ov7670_marker_tracker_use\ov7670_marker_tracker_use.sdk\SDK\SDK_Export\hw\design_1_wrapper.bit into \hw_platform_0\design_1_wrapper.bit.
+03:11:47 INFO  : Copied contents of D:\VivadoTutorials\ov7670_marker_tracker_use\ov7670_marker_tracker_use.sdk\SDK\SDK_Export\hw\design_1_wrapper_bd.bmm into \hw_platform_0\design_1_wrapper_bd.bmm.
+03:11:51 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+03:11:55 INFO  : 
+03:11:56 INFO  : Updating hardware inferred compiler options for use_marker_tracker.
+03:11:56 INFO  : Clearing existing target manager status.
+03:11:58 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+03:12:06 INFO  : Processor reset is completed for microblaze_0
+03:25:29 INFO  : Processor reset is completed for microblaze_0
+03:26:08 INFO  : Processor reset is completed for microblaze_0
+03:26:47 INFO  : Processor reset is completed for microblaze_0
+03:27:10 INFO  : FPGA configured successfully with bitstream "D:/VivadoTutorials/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+03:27:17 INFO  : Processor reset is completed for microblaze_0
+03:28:08 INFO  : Processor reset is completed for microblaze_0
+03:28:09 ERROR : Port COM8 is already in use.
+03:28:43 INFO  : Processor reset is completed for microblaze_0
+03:29:42 INFO  : Processor reset is completed for microblaze_0
+03:32:38 INFO  : Processor reset is completed for microblaze_0
+03:33:14 INFO  : Processor reset is completed for microblaze_0
+03:33:23 INFO  : Processor reset is completed for microblaze_0
+03:39:48 INFO  : Processor reset is completed for microblaze_0
+03:43:21 INFO  : Processor reset is completed for microblaze_0
+03:43:39 INFO  : Processor reset is completed for microblaze_0
+03:44:08 INFO  : Processor reset is completed for microblaze_0
+03:45:03 INFO  : Processor reset is completed for microblaze_0
+03:46:33 INFO  : Processor reset is completed for microblaze_0
+03:49:36 INFO  : Processor reset is completed for microblaze_0
+03:52:20 INFO  : Processor reset is completed for microblaze_0
+03:54:49 INFO  : Processor reset is completed for microblaze_0
+04:50:31 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+04:50:42 INFO  : Processing command line option -hwspec D:/VivadoTutorials/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw/design_1.xml.
+04:50:43 INFO  : The hardware specification for project 'hw_platform_0' is different from D:/VivadoTutorials/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw/design_1.xml.
+04:50:43 INFO  : Copied contents of D:/VivadoTutorials/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw/design_1.xml into \hw_platform_0\system.xml.
+04:50:47 INFO  : Copied contents of D:\VivadoTutorials\ov7670_marker_tracker_use\ov7670_marker_tracker_use.sdk\SDK\SDK_Export\hw\design_1_wrapper.bit into \hw_platform_0\design_1_wrapper.bit.
+04:50:47 INFO  : Copied contents of D:\VivadoTutorials\ov7670_marker_tracker_use\ov7670_marker_tracker_use.sdk\SDK\SDK_Export\hw\design_1_wrapper_bd.bmm into \hw_platform_0\design_1_wrapper_bd.bmm.
+04:50:47 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+04:50:51 INFO  : 
+04:50:55 INFO  : Updating hardware inferred compiler options for use_marker_tracker.
+04:50:55 INFO  : Clearing existing target manager status.
+04:50:56 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+04:52:24 INFO  : Processor reset is completed for microblaze_0
+04:52:47 INFO  : Processor reset is completed for microblaze_0
+04:53:44 INFO  : Processor reset is completed for microblaze_0
+04:55:00 INFO  : Processor reset is completed for microblaze_0
+04:56:33 INFO  : Processor reset is completed for microblaze_0
+04:57:10 INFO  : Processor reset is completed for microblaze_0
+04:58:11 INFO  : FPGA configured successfully with bitstream "D:/VivadoTutorials/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+04:59:09 INFO  : Processor reset is completed for microblaze_0
+05:02:24 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:07:02 INFO  : Processing command line option -hwspec D:/VivadoTutorials/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw/design_1.xml.
+11:07:04 INFO  : The hardware specification for project 'hw_platform_0' is different from D:/VivadoTutorials/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw/design_1.xml.
+11:07:04 INFO  : Copied contents of D:/VivadoTutorials/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw/design_1.xml into \hw_platform_0\system.xml.
+11:07:07 INFO  : Updating .bit and .bmm files from XPS's export folder.
+11:07:42 INFO  : Copied contents of D:\VivadoTutorials\ov7670_marker_tracker_use\ov7670_marker_tracker_use.sdk\SDK\SDK_Export\hw\design_1_wrapper.bit into \hw_platform_0\design_1_wrapper.bit.
+11:07:42 INFO  : Copied contents of D:\VivadoTutorials\ov7670_marker_tracker_use\ov7670_marker_tracker_use.sdk\SDK\SDK_Export\hw\design_1_wrapper_bd.bmm into \hw_platform_0\design_1_wrapper_bd.bmm.
+11:07:42 INFO  : Copied contents of D:\VivadoTutorials\ov7670_marker_tracker_use\ov7670_marker_tracker_use.sdk\SDK\SDK_Export\hw\design_1_wrapper.bit into \hw_platform_0\design_1_wrapper.bit.
+11:07:42 INFO  : Copied contents of D:\VivadoTutorials\ov7670_marker_tracker_use\ov7670_marker_tracker_use.sdk\SDK\SDK_Export\hw\design_1_wrapper_bd.bmm into \hw_platform_0\design_1_wrapper_bd.bmm.
+11:07:46 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+11:07:47 INFO  : 
+11:07:48 INFO  : Updating hardware inferred compiler options for use_marker_tracker.
+11:07:48 INFO  : Clearing existing target manager status.
+11:07:49 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+11:09:41 INFO  : Processor reset is completed for microblaze_0
+11:10:48 INFO  : Processor reset is completed for microblaze_0
+11:47:33 INFO  : Project hw_platform_0's source hardware specification located at D:/VivadoTutorials/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw/design_1.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+11:47:39 INFO  : Project hw_platform_0's source hardware specification location will not be monitored anymore.
+11:47:42 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:47:57 INFO  : Processing command line option -hwspec D:/VivadoTutorials/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw/design_1.xml.
+11:47:58 INFO  : The hardware specification for project 'hw_platform_0' is different from D:/VivadoTutorials/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw/design_1.xml.
+11:47:58 INFO  : Copied contents of D:/VivadoTutorials/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw/design_1.xml into \hw_platform_0\system.xml.
+11:47:58 INFO  : Copied contents of D:\VivadoTutorials\ov7670_marker_tracker_use\ov7670_marker_tracker_use.sdk\SDK\SDK_Export\hw\design_1_wrapper.bit into \hw_platform_0\design_1_wrapper.bit.
+11:47:58 INFO  : Copied contents of D:\VivadoTutorials\ov7670_marker_tracker_use\ov7670_marker_tracker_use.sdk\SDK\SDK_Export\hw\design_1_wrapper_bd.bmm into \hw_platform_0\design_1_wrapper_bd.bmm.
+11:47:59 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+11:48:06 INFO  : 
+11:48:07 INFO  : Updating hardware inferred compiler options for use_marker_tracker.
+11:48:07 INFO  : Clearing existing target manager status.
+11:48:08 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+11:52:32 INFO  : Processor reset is completed for microblaze_0
+11:59:12 INFO  : Processor reset is completed for microblaze_0
+11:59:26 WARN  : Terminating existing sessions on processor microblaze_0
+11:59:30 INFO  : FPGA configured successfully with bitstream "D:/VivadoTutorials/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+12:00:34 INFO  : Processor reset is completed for microblaze_0
+12:00:56 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+12:05:43 INFO  : Processing command line option -hwspec D:/VivadoTutorials/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw/design_1.xml.
+12:05:44 INFO  : The hardware specification for project 'hw_platform_0' is different from D:/VivadoTutorials/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw/design_1.xml.
+12:05:44 INFO  : Copied contents of D:/VivadoTutorials/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw/design_1.xml into \hw_platform_0\system.xml.
+12:05:45 INFO  : Copied contents of D:\VivadoTutorials\ov7670_marker_tracker_use\ov7670_marker_tracker_use.sdk\SDK\SDK_Export\hw\design_1_wrapper.bit into \hw_platform_0\design_1_wrapper.bit.
+12:05:45 INFO  : Copied contents of D:\VivadoTutorials\ov7670_marker_tracker_use\ov7670_marker_tracker_use.sdk\SDK\SDK_Export\hw\design_1_wrapper_bd.bmm into \hw_platform_0\design_1_wrapper_bd.bmm.
+12:05:46 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+12:05:53 INFO  : 
+12:05:54 INFO  : Updating hardware inferred compiler options for use_marker_tracker.
+12:05:54 INFO  : Clearing existing target manager status.
+12:05:54 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+12:06:33 INFO  : Processor reset is completed for microblaze_0
+12:29:16 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+12:31:04 INFO  : Processing command line option -hwspec D:/VivadoTutorials/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw/design_1.xml.
+12:31:05 INFO  : The hardware specification for project 'hw_platform_0' is different from D:/VivadoTutorials/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw/design_1.xml.
+12:31:05 INFO  : Copied contents of D:/VivadoTutorials/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw/design_1.xml into \hw_platform_0\system.xml.
+12:31:05 INFO  : Copied contents of D:\VivadoTutorials\ov7670_marker_tracker_use\ov7670_marker_tracker_use.sdk\SDK\SDK_Export\hw\design_1_wrapper.bit into \hw_platform_0\design_1_wrapper.bit.
+12:31:05 INFO  : Copied contents of D:\VivadoTutorials\ov7670_marker_tracker_use\ov7670_marker_tracker_use.sdk\SDK\SDK_Export\hw\design_1_wrapper_bd.bmm into \hw_platform_0\design_1_wrapper_bd.bmm.
+12:31:10 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+12:31:13 INFO  : 
+12:31:14 INFO  : Updating hardware inferred compiler options for use_marker_tracker.
+12:31:14 INFO  : Clearing existing target manager status.
+12:31:15 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+12:31:38 INFO  : Processor reset is completed for microblaze_0
+18:46:56 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+00:14:26 INFO  : Processing command line option -hwspec D:/VivadoTutorials/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw/design_1.xml.
+00:14:27 INFO  : The hardware specification for project 'hw_platform_0' is different from D:/VivadoTutorials/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw/design_1.xml.
+00:14:27 INFO  : Copied contents of D:/VivadoTutorials/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw/design_1.xml into \hw_platform_0\system.xml.
+00:14:28 INFO  : Copied contents of D:\VivadoTutorials\ov7670_marker_tracker_use\ov7670_marker_tracker_use.sdk\SDK\SDK_Export\hw\design_1_wrapper.bit into \hw_platform_0\design_1_wrapper.bit.
+00:14:28 INFO  : Copied contents of D:\VivadoTutorials\ov7670_marker_tracker_use\ov7670_marker_tracker_use.sdk\SDK\SDK_Export\hw\design_1_wrapper_bd.bmm into \hw_platform_0\design_1_wrapper_bd.bmm.
+00:14:33 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+00:14:36 INFO  : 
+00:14:36 INFO  : Updating hardware inferred compiler options for use_marker_tracker.
+00:14:36 INFO  : Clearing existing target manager status.
+00:14:37 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+00:18:16 INFO  : Processor reset is completed for microblaze_0
+00:21:20 INFO  : Processor reset is completed for microblaze_0
+00:40:40 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+00:40:51 INFO  : Processing command line option -hwspec D:/VivadoTutorials/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw/design_1.xml.
+00:40:52 INFO  : The hardware specification for project 'hw_platform_0' is different from D:/VivadoTutorials/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw/design_1.xml.
+00:40:52 INFO  : Copied contents of D:/VivadoTutorials/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw/design_1.xml into \hw_platform_0\system.xml.
+00:40:52 INFO  : Copied contents of D:\VivadoTutorials\ov7670_marker_tracker_use\ov7670_marker_tracker_use.sdk\SDK\SDK_Export\hw\design_1_wrapper.bit into \hw_platform_0\design_1_wrapper.bit.
+00:40:52 INFO  : Copied contents of D:\VivadoTutorials\ov7670_marker_tracker_use\ov7670_marker_tracker_use.sdk\SDK\SDK_Export\hw\design_1_wrapper_bd.bmm into \hw_platform_0\design_1_wrapper_bd.bmm.
+00:40:57 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+00:41:00 INFO  : 
+00:41:01 INFO  : Updating hardware inferred compiler options for use_marker_tracker.
+00:41:01 INFO  : Clearing existing target manager status.
+00:41:01 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+00:41:08 INFO  : Processor reset is completed for microblaze_0
+00:46:45 INFO  : Processor reset is completed for microblaze_0
+00:53:09 INFO  : Processor reset is completed for microblaze_0
+01:06:28 INFO  : Processor reset is completed for microblaze_0
+01:09:43 INFO  : Processor reset is completed for microblaze_0
+01:12:23 INFO  : Processor reset is completed for microblaze_0
+01:14:12 INFO  : Processor reset is completed for microblaze_0
+01:14:41 INFO  : Processor reset is completed for microblaze_0
+01:14:58 INFO  : Processor reset is completed for microblaze_0
+01:20:03 INFO  : Processor reset is completed for microblaze_0
+01:20:03 ERROR : Port COM8 is already in use.
+01:20:20 INFO  : Processor reset is completed for microblaze_0
+01:20:36 INFO  : Processor reset is completed for microblaze_0
+01:20:59 INFO  : Processor reset is completed for microblaze_0
+01:21:16 INFO  : Processor reset is completed for microblaze_0
+01:21:16 ERROR : Port COM8 is already in use.
+01:21:27 INFO  : Processor reset is completed for microblaze_0
+01:21:39 INFO  : Processor reset is completed for microblaze_0
+01:22:00 INFO  : Processor reset is completed for microblaze_0
+01:22:22 INFO  : Processor reset is completed for microblaze_0
+01:22:48 INFO  : Processor reset is completed for microblaze_0
+01:23:06 INFO  : Processor reset is completed for microblaze_0
+01:23:22 INFO  : Processor reset is completed for microblaze_0
+01:23:22 ERROR : Port COM8 is already in use.
+01:23:36 INFO  : Processor reset is completed for microblaze_0
+01:24:02 INFO  : Processor reset is completed for microblaze_0
+01:24:36 INFO  : Processor reset is completed for microblaze_0
+01:25:55 INFO  : Processor reset is completed for microblaze_0
+01:27:13 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:27:16 INFO  : Processor reset is completed for microblaze_0
+01:27:58 INFO  : Processor reset is completed for microblaze_0
+01:28:15 INFO  : Processor reset is completed for microblaze_0
+01:28:34 INFO  : Processor reset is completed for microblaze_0
+01:31:44 INFO  : Processor reset is completed for microblaze_0
+01:32:05 INFO  : Processor reset is completed for microblaze_0
+01:32:50 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:32:58 INFO  : Processor reset is completed for microblaze_0
+01:34:36 INFO  : Processor reset is completed for microblaze_0
+01:38:31 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+00:26:34 INFO  : Processing command line option -hwspec D:/VivadoTutorials/FinalDesign/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw/design_1.xml.
+00:26:39 INFO  : The hardware specification for project 'hw_platform_0' is different from D:/VivadoTutorials/FinalDesign/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw/design_1.xml.
+00:26:39 INFO  : Copied contents of D:/VivadoTutorials/FinalDesign/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw/design_1.xml into \hw_platform_0\system.xml.
+00:26:40 INFO  : Updating .bit and .bmm files from XPS's export folder.
+00:26:45 INFO  : Copied contents of D:\VivadoTutorials\FinalDesign\ov7670_marker_tracker_use\ov7670_marker_tracker_use.sdk\SDK\SDK_Export\hw\design_1_wrapper.bit into \hw_platform_0\design_1_wrapper.bit.
+00:26:45 INFO  : Copied contents of D:\VivadoTutorials\FinalDesign\ov7670_marker_tracker_use\ov7670_marker_tracker_use.sdk\SDK\SDK_Export\hw\design_1_wrapper_bd.bmm into \hw_platform_0\design_1_wrapper_bd.bmm.
+00:26:45 INFO  : Copied contents of D:\VivadoTutorials\FinalDesign\ov7670_marker_tracker_use\ov7670_marker_tracker_use.sdk\SDK\SDK_Export\hw\design_1_wrapper.bit into \hw_platform_0\design_1_wrapper.bit.
+00:26:45 INFO  : Copied contents of D:\VivadoTutorials\FinalDesign\ov7670_marker_tracker_use\ov7670_marker_tracker_use.sdk\SDK\SDK_Export\hw\design_1_wrapper_bd.bmm into \hw_platform_0\design_1_wrapper_bd.bmm.
+00:26:50 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+00:26:51 INFO  : 
+00:26:52 INFO  : Updating hardware inferred compiler options for use_marker_tracker.
+00:26:52 INFO  : Clearing existing target manager status.
+00:26:53 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+00:37:37 INFO  : Processor reset is completed for microblaze_0
+00:37:39 ERROR : No such port: COM8
+00:38:16 INFO  : Processor reset is completed for microblaze_0
+00:38:18 ERROR : No such port: COM8
+00:39:13 INFO  : Processor reset is completed for microblaze_0
+00:46:23 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\VivadoTutorials\ov7670_marker_tracker_use\ov7670_marker_tracker_use.sdk\SDK\SDK_Export\use_marker_tracker_bsp\system.mss
+
+00:46:23 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\VivadoTutorials\ov7670_marker_tracker_use\ov7670_marker_tracker_use.sdk\SDK\SDK_Export\use_marker_tracker_bsp\system.mss
+
+00:46:23 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\VivadoTutorials\ov7670_marker_tracker_use\ov7670_marker_tracker_use.sdk\SDK\SDK_Export\use_marker_tracker_bsp\system.mss
+
+00:46:25 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\VivadoTutorials\ov7670_marker_tracker_use\ov7670_marker_tracker_use.sdk\SDK\SDK_Export\use_marker_tracker_bsp\system.mss
+WARNING: [Hsm 55-1559] Software Design already exists with Name D:\VivadoTutorials\ov7670_marker_tracker_use\ov7670_marker_tracker_use.sdk\SDK\SDK_Export\use_marker_tracker_bsp\system.mss
+
+00:47:29 INFO  : Processor reset is completed for microblaze_0
+00:48:30 INFO  : Processor reset is completed for microblaze_0
+00:50:13 INFO  : Processor reset is completed for microblaze_0
+00:52:17 INFO  : Processor reset is completed for microblaze_0
+00:52:18 ERROR : Port COM6 is already in use.
+00:58:49 INFO  : Processor reset is completed for microblaze_0
+00:58:50 ERROR : Port COM6 is already in use.
+01:12:21 INFO  : Processor reset is completed for microblaze_0
+01:12:23 ERROR : Port COM6 is already in use.
+01:13:15 INFO  : Processor reset is completed for microblaze_0
+01:13:55 INFO  : Processor reset is completed for microblaze_0
+01:14:39 INFO  : Processor reset is completed for microblaze_0
+01:17:32 INFO  : Processor reset is completed for microblaze_0
+01:17:49 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:03:21 INFO  : Processing command line option -hwspec C:/Users/Hardik/Desktop/FinalDesign/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw/design_1.xml.
+17:06:27 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Project use_marker_tracker does not exist. Please check that your launch configuration specifies a valid project in your workspace.
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:706)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:253)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+17:06:48 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Could not detect MDM peripheral on hardware. Please check:
+    1. If FPGA is configured correctly
+    2. MDM Core is instantiated in the design
+    3. If the correct FPGA is referred, in case of multiple FPGAs
+    4. If the correct MDM is referred, in case of a multiple MDM system
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(TM.java:546)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:347)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:516)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:251)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+17:13:02 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:19:45 INFO  : Processing command line option -hwspec C:/Users/Hardik/Desktop/FinalDesign/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw/design_1.xml.
+17:19:48 INFO  : The hardware specification for project 'hw_platform_0' is different from C:/Users/Hardik/Desktop/FinalDesign/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw/design_1.xml.
+17:19:48 INFO  : Copied contents of C:/Users/Hardik/Desktop/FinalDesign/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw/design_1.xml into \hw_platform_0\system.xml.
+17:20:01 INFO  : Copied contents of C:\Users\Hardik\Desktop\FinalDesign\ov7670_marker_tracker_use\ov7670_marker_tracker_use.sdk\SDK\SDK_Export\hw\design_1_wrapper.bit into \hw_platform_0\design_1_wrapper.bit.
+17:20:01 INFO  : Copied contents of C:\Users\Hardik\Desktop\FinalDesign\ov7670_marker_tracker_use\ov7670_marker_tracker_use.sdk\SDK\SDK_Export\hw\design_1_wrapper_bd.bmm into \hw_platform_0\design_1_wrapper_bd.bmm.
+17:20:14 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+17:20:15 INFO  : 
+17:20:16 INFO  : Updating hardware inferred compiler options for new.
+17:20:16 INFO  : Clearing existing target manager status.
+17:20:47 INFO  : Processor reset is completed for microblaze_0
+17:21:16 INFO  : Processor reset is completed for microblaze_0
+17:22:02 INFO  : Processor reset is completed for microblaze_0
+17:23:43 INFO  : Processor reset is completed for microblaze_0
+17:24:36 INFO  : Inferring section assignments and sizes from elf file: C:\Users\Hardik\Desktop\FinalDesign\ov7670_marker_tracker_use\ov7670_marker_tracker_use.sdk\SDK\SDK_Export\new\Debug\new.elf
+17:24:38 INFO  : Successfully generated C:\Users\Hardik\Desktop\FinalDesign\ov7670_marker_tracker_use\ov7670_marker_tracker_use.sdk\SDK\SDK_Export\new\src\lscript.ld.
+17:24:38 INFO  : Applying linker script to all configurations of project new.
+17:24:38 INFO  : Setting rebuild state to true for all configurations of project new.
+17:25:35 INFO  : Processor reset is completed for microblaze_0
+17:29:24 INFO  : Processor reset is completed for microblaze_0
+17:42:33 INFO  : Processor reset is completed for microblaze_0
+17:45:05 INFO  : Processor reset is completed for microblaze_0
+17:46:13 INFO  : Processor reset is completed for microblaze_0
+17:47:56 INFO  : Processor reset is completed for microblaze_0
+17:53:47 INFO  : Processor reset is completed for microblaze_0
+17:55:17 INFO  : Processor reset is completed for microblaze_0
+17:55:19 ERROR : Port COM6 is already in use.
+17:56:39 INFO  : Processor reset is completed for microblaze_0
+17:58:29 INFO  : Processor reset is completed for microblaze_0
+17:59:09 INFO  : Processor reset is completed for microblaze_0
+18:03:05 INFO  : Processor reset is completed for microblaze_0
+18:04:04 INFO  : Processor reset is completed for microblaze_0
+18:05:25 INFO  : Processor reset is completed for microblaze_0
+18:06:03 INFO  : Processor reset is completed for microblaze_0
+18:09:48 INFO  : Processor reset is completed for microblaze_0
+18:10:52 INFO  : Processor reset is completed for microblaze_0
+18:12:01 INFO  : Processor reset is completed for microblaze_0
+18:12:04 ERROR : Port COM6 is already in use.
+18:13:36 INFO  : Processor reset is completed for microblaze_0
+18:13:38 ERROR : Port COM6 is already in use.
+18:15:44 INFO  : Processor reset is completed for microblaze_0
+18:15:44 ERROR : Port COM6 is already in use.
+18:16:04 INFO  : Processor reset is completed for microblaze_0
+18:16:34 INFO  : Processor reset is completed for microblaze_0
+18:19:01 INFO  : Processor reset is completed for microblaze_0
+18:19:52 INFO  : Processor reset is completed for microblaze_0
+18:22:42 INFO  : Processor reset is completed for microblaze_0
+18:25:52 INFO  : Processor reset is completed for microblaze_0
+18:27:01 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:27:05 INFO  : Processor reset is completed for microblaze_0
+18:27:34 INFO  : Processor reset is completed for microblaze_0
+18:30:55 INFO  : Processor reset is completed for microblaze_0
+18:31:50 INFO  : Processor reset is completed for microblaze_0
+18:32:33 INFO  : Processor reset is completed for microblaze_0
+18:33:10 INFO  : Processor reset is completed for microblaze_0
+18:33:12 ERROR : Port COM6 is already in use.
+18:34:03 INFO  : Processor reset is completed for microblaze_0
+18:36:41 INFO  : Processor reset is completed for microblaze_0
+18:37:24 INFO  : Processor reset is completed for microblaze_0
+18:37:24 ERROR : Port COM6 is already in use.
+18:40:46 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:40:50 INFO  : Processor reset is completed for microblaze_0
+18:41:05 INFO  : Processor reset is completed for microblaze_0
+18:41:05 ERROR : Port COM6 is already in use.
+18:41:38 INFO  : Processor reset is completed for microblaze_0
+18:42:59 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:43:03 INFO  : Processor reset is completed for microblaze_0
+18:43:39 INFO  : Processor reset is completed for microblaze_0
+18:44:21 INFO  : Processor reset is completed for microblaze_0
+18:46:15 INFO  : Processor reset is completed for microblaze_0
+18:47:25 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: The program file specified in the launch configuration does not exist
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:480)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:251)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+18:50:22 INFO  : Processor reset is completed for microblaze_0
+18:53:19 INFO  : Processor reset is completed for microblaze_0
+18:54:24 INFO  : Processor reset is completed for microblaze_0
+18:58:32 INFO  : Processor reset is completed for microblaze_0
+19:01:08 INFO  : Processor reset is completed for microblaze_0
+19:02:08 INFO  : Processor reset is completed for microblaze_0
+19:08:08 INFO  : Processor reset is completed for microblaze_0
+19:09:38 INFO  : Processor reset is completed for microblaze_0
+19:15:51 INFO  : Processor reset is completed for microblaze_0
+19:23:35 INFO  : Processor reset is completed for microblaze_0
+19:33:01 INFO  : Processor reset is completed for microblaze_0
+19:48:58 INFO  : Processor reset is completed for microblaze_0
+19:49:10 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:49:14 INFO  : Processor reset is completed for microblaze_0
+19:52:22 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:52:23 INFO  : Processor reset is completed for microblaze_0
+20:02:16 INFO  : Processor reset is completed for microblaze_0
+20:13:22 INFO  : Processor reset is completed for microblaze_0
+20:29:22 ERROR : Unable to disconnect from existing targets
+java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(XMDJSONProcess.java:140)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(TM.java:331)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectExistingTargets(TM.java:313)
+	at com.xilinx.sdk.targetmanager.internal.TM.terminate(TM.java:206)
+	at com.xilinx.sdk.targetmanager.TMPlugin.stop(TMPlugin.java:57)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:771)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:764)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:510)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:566)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1206)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:592)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:692)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:600)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:399)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:199)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+20:29:22 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+19:18:02 INFO  : Processing command line option -hwspec C:/Users/Hardik/Desktop/FinalDesign/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw/design_1.xml.
+19:18:06 INFO  : The hardware specification for project 'hw_platform_0' is different from C:/Users/Hardik/Desktop/FinalDesign/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw/design_1.xml.
+19:18:06 INFO  : Copied contents of C:/Users/Hardik/Desktop/FinalDesign/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw/design_1.xml into \hw_platform_0\system.xml.
+19:18:19 INFO  : Copied contents of C:\Users\Hardik\Desktop\FinalDesign\ov7670_marker_tracker_use\ov7670_marker_tracker_use.sdk\SDK\SDK_Export\hw\design_1_wrapper.bit into \hw_platform_0\design_1_wrapper.bit.
+19:18:19 INFO  : Copied contents of C:\Users\Hardik\Desktop\FinalDesign\ov7670_marker_tracker_use\ov7670_marker_tracker_use.sdk\SDK\SDK_Export\hw\design_1_wrapper_bd.bmm into \hw_platform_0\design_1_wrapper_bd.bmm.
+19:18:22 ERROR :  License Feature SDK is not available.
+
+19:19:48 INFO  : Processing command line option -hwspec C:/Users/Hardik/Desktop/FinalDesign/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw/design_1.xml.
+19:19:52 INFO  : The hardware specification for project 'hw_platform_0' is different from C:/Users/Hardik/Desktop/FinalDesign/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw/design_1.xml.
+19:19:52 INFO  : Copied contents of C:/Users/Hardik/Desktop/FinalDesign/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw/design_1.xml into \hw_platform_0\system.xml.
+19:20:04 INFO  : Copied contents of C:\Users\Hardik\Desktop\FinalDesign\ov7670_marker_tracker_use\ov7670_marker_tracker_use.sdk\SDK\SDK_Export\hw\design_1_wrapper.bit into \hw_platform_0\design_1_wrapper.bit.
+19:20:04 INFO  : Copied contents of C:\Users\Hardik\Desktop\FinalDesign\ov7670_marker_tracker_use\ov7670_marker_tracker_use.sdk\SDK\SDK_Export\hw\design_1_wrapper_bd.bmm into \hw_platform_0\design_1_wrapper_bd.bmm.
+19:20:18 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+19:20:19 INFO  : 
+19:20:20 INFO  : Updating hardware inferred compiler options for new.
+19:20:20 INFO  : Clearing existing target manager status.
+19:25:13 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Could not detect MDM peripheral on hardware. Please check:
+    1. If FPGA is configured correctly
+    2. MDM Core is instantiated in the design
+    3. If the correct FPGA is referred, in case of multiple FPGAs
+    4. If the correct MDM is referred, in case of a multiple MDM system
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(TM.java:546)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:347)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:516)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:251)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+19:25:28 INFO  : FPGA configured successfully with bitstream "C:/Users/Hardik/Desktop/FinalDesign/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+19:28:02 INFO  : Processor reset is completed for microblaze_0
+21:05:22 INFO  : FPGA configured successfully with bitstream "C:/Users/Hardik/Desktop/FinalDesign/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+21:06:45 INFO  : FPGA configured successfully with bitstream "C:/Users/Hardik/Desktop/FinalDesign/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+21:07:23 INFO  : Processor reset is completed for microblaze_0
+21:18:29 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:18:34 INFO  : Processor reset is completed for microblaze_0
+21:18:34 ERROR : Port COM6 is already in use.
+21:20:40 INFO  : FPGA configured successfully with bitstream "C:/Users/Hardik/Desktop/FinalDesign/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+21:21:31 INFO  : Processor reset is completed for microblaze_0
+23:28:11 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+18:46:44 INFO  : Processing command line option -hwspec C:/Users/Hardik/Desktop/FinalDesign/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw/design_1.xml.
+18:46:47 INFO  : The hardware specification for project 'hw_platform_0' is different from C:/Users/Hardik/Desktop/FinalDesign/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw/design_1.xml.
+18:46:47 INFO  : Copied contents of C:/Users/Hardik/Desktop/FinalDesign/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw/design_1.xml into \hw_platform_0\system.xml.
+18:47:16 INFO  : Copied contents of C:\Users\Hardik\Desktop\FinalDesign\ov7670_marker_tracker_use\ov7670_marker_tracker_use.sdk\SDK\SDK_Export\hw\design_1_wrapper.bit into \hw_platform_0\design_1_wrapper.bit.
+18:47:16 INFO  : Copied contents of C:\Users\Hardik\Desktop\FinalDesign\ov7670_marker_tracker_use\ov7670_marker_tracker_use.sdk\SDK\SDK_Export\hw\design_1_wrapper_bd.bmm into \hw_platform_0\design_1_wrapper_bd.bmm.
+18:47:30 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+18:47:32 INFO  : 
+18:47:32 INFO  : Updating hardware inferred compiler options for new.
+18:47:33 INFO  : Clearing existing target manager status.
+18:47:56 INFO  : FPGA configured successfully with bitstream "C:/Users/Hardik/Desktop/FinalDesign/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+18:48:19 INFO  : Processor reset is completed for microblaze_0
+18:48:19 ERROR : No such port: COM6
+18:49:28 INFO  : FPGA configured successfully with bitstream "C:/Users/Hardik/Desktop/FinalDesign/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+18:49:55 INFO  : Processor reset is completed for microblaze_0
+18:49:55 ERROR : No such port: COM6
+18:51:55 INFO  : Processor reset is completed for microblaze_0
+18:56:05 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:56:10 INFO  : Processor reset is completed for microblaze_0
+19:00:45 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:00:48 INFO  : Processor reset is completed for microblaze_0
+19:05:39 INFO  : Processor reset is completed for microblaze_0
+19:10:17 INFO  : Processor reset is completed for microblaze_0
+19:22:14 INFO  : Processor reset is completed for microblaze_0
+20:08:42 INFO  : Processor reset is completed for microblaze_0
+20:09:53 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:48:46 INFO  : Processor reset is completed for microblaze_0
+20:57:21 INFO  : Processor reset is completed for microblaze_0
+21:02:06 INFO  : Processor reset is completed for microblaze_0
+21:04:37 INFO  : Processor reset is completed for microblaze_0
+21:06:28 INFO  : Processor reset is completed for microblaze_0
+21:09:48 INFO  : Processor reset is completed for microblaze_0
+21:10:27 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:10:30 INFO  : Processor reset is completed for microblaze_0
+21:13:01 INFO  : Processor reset is completed for microblaze_0
+21:16:38 INFO  : Processor reset is completed for microblaze_0
+21:18:52 INFO  : Processor reset is completed for microblaze_0
+21:22:35 INFO  : Processor reset is completed for microblaze_0
+21:25:56 INFO  : Processor reset is completed for microblaze_0
+21:31:48 INFO  : Processor reset is completed for microblaze_0
+15:35:51 INFO  : FPGA configured successfully with bitstream "C:/Users/Hardik/Desktop/FinalDesign/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+15:36:35 INFO  : Processor reset is completed for microblaze_0
+15:40:50 INFO  : Processor reset is completed for microblaze_0
+15:40:51 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:40:56 INFO  : Processor reset is completed for microblaze_0
+15:56:05 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:56:08 INFO  : Processor reset is completed for microblaze_0
+15:58:21 INFO  : Processor reset is completed for microblaze_0
+16:42:46 INFO  : FPGA configured successfully with bitstream "C:/Users/Hardik/Desktop/FinalDesign/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+16:43:03 INFO  : Processor reset is completed for microblaze_0
+16:45:36 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+21:06:57 INFO  : Processing command line option -hwspec D:/G3_OrchestraConductorDemo/src/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw/design_1.xml.
+21:06:59 INFO  : The hardware specification for project 'hw_platform_0' is different from D:/G3_OrchestraConductorDemo/src/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw/design_1.xml.
+21:06:59 INFO  : Copied contents of D:/G3_OrchestraConductorDemo/src/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/hw/design_1.xml into \hw_platform_0\system.xml.
+21:07:02 INFO  : Updating .bit and .bmm files from XPS's export folder.
+21:07:05 INFO  : Copied contents of D:\G3_OrchestraConductorDemo\src\ov7670_marker_tracker_use\ov7670_marker_tracker_use.sdk\SDK\SDK_Export\hw\design_1_wrapper.bit into \hw_platform_0\design_1_wrapper.bit.
+21:07:09 INFO  : Copied contents of D:\G3_OrchestraConductorDemo\src\ov7670_marker_tracker_use\ov7670_marker_tracker_use.sdk\SDK\SDK_Export\hw\design_1_wrapper_bd.bmm into \hw_platform_0\design_1_wrapper_bd.bmm.
+21:07:09 INFO  : Copied contents of D:\G3_OrchestraConductorDemo\src\ov7670_marker_tracker_use\ov7670_marker_tracker_use.sdk\SDK\SDK_Export\hw\design_1_wrapper.bit into \hw_platform_0\design_1_wrapper.bit.
+21:07:09 INFO  : Copied contents of D:\G3_OrchestraConductorDemo\src\ov7670_marker_tracker_use\ov7670_marker_tracker_use.sdk\SDK\SDK_Export\hw\design_1_wrapper_bd.bmm into \hw_platform_0\design_1_wrapper_bd.bmm.
+21:07:13 WARN  :  [Hsm 55-1607] Software Repository Paths c:/Users/Hardik/Desktop/FinalDesign/IP/ov7670_marker_tracker_ip/ov7670_marker_tracker_ip_1.0 and C:/Users/Mark/AppData/Local/Temp/../../../../../IP/ov7670_marker_tracker_ip/ov7670_marker_tracker_ip_1.0 do not exist or not accessible
+WARNING: [Hsm 55-1607] Software Repository Paths c:/Users/Hardik/Desktop/FinalDesign/IP/song_ip_1.0 and C:/Users/Mark/AppData/Local/Temp/../../../../../IP/song_ip_1.0 do not exist or not accessible
+
+21:07:14 WARN  :  [Hsm 55-1607] Software Repository Paths c:/Users/Hardik/Desktop/FinalDesign/IP/ov7670_marker_tracker_ip/ov7670_marker_tracker_ip_1.0 and C:/Users/Mark/AppData/Local/Temp/../../../../../IP/ov7670_marker_tracker_ip/ov7670_marker_tracker_ip_1.0 do not exist or not accessible
+WARNING: [Hsm 55-1607] Software Repository Paths c:/Users/Hardik/Desktop/FinalDesign/IP/song_ip_1.0 and C:/Users/Mark/AppData/Local/Temp/../../../../../IP/song_ip_1.0 do not exist or not accessible
+
+21:07:14 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+21:07:15 INFO  : 
+21:07:16 INFO  : Updating hardware inferred compiler options for new.
+21:07:16 INFO  : Clearing existing target manager status.
+21:07:52 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

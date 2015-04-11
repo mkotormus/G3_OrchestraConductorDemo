@@ -1,0 +1,71 @@
+00:46:25 **** Auto Build of project use_marker_tracker_bsp ****
+make -k all 
+cp -f microblaze_0/lib/libxil_init.a microblaze_0/lib/libxil.a
+"Running Make include in microblaze_0/libsrc/bram_v4_0/src"
+make -C microblaze_0/libsrc/bram_v4_0/src -s include -e "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Running Make include in microblaze_0/libsrc/cpu_v2_0/src"
+make -C microblaze_0/libsrc/cpu_v2_0/src -s include -e "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Running Make include in microblaze_0/libsrc/intc_v3_0/src"
+make -C microblaze_0/libsrc/intc_v3_0/src -s include -e "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Running Make include in microblaze_0/libsrc/ov7670_marker_tracker_ip_v1_0/src"
+make -C microblaze_0/libsrc/ov7670_marker_tracker_ip_v1_0/src -s include -e "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Running Make include in microblaze_0/libsrc/song_ip_v1_0/src"
+make -C microblaze_0/libsrc/song_ip_v1_0/src -s include -e "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Running Make include in microblaze_0/libsrc/standalone_v4_0/src"
+make -C microblaze_0/libsrc/standalone_v4_0/src -s include -e "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+make[2]: Entering directory `D:/VivadoTutorials/FinalDesign/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/use_marker_tracker_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+cp -rf profile.h mblaze_nt_types.h _profile_timer_hw.h ../../../../include
+make[2]: Leaving directory `D:/VivadoTutorials/FinalDesign/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/use_marker_tracker_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+"Running Make include in microblaze_0/libsrc/tft_v5_0/src"
+make -C microblaze_0/libsrc/tft_v5_0/src -s include -e "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_0/src"
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s include -e "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Running Make libs in microblaze_0/libsrc/bram_v4_0/src"
+make -C microblaze_0/libsrc/bram_v4_0/src -s libs -e "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Compiling bram"
+make[2]: Entering directory `D:/VivadoTutorials/FinalDesign/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/use_marker_tracker_bsp/microblaze_0/libsrc/bram_v4_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `D:/VivadoTutorials/FinalDesign/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/use_marker_tracker_bsp/microblaze_0/libsrc/bram_v4_0/src'
+"Running Make libs in microblaze_0/libsrc/cpu_v2_0/src"
+make -C microblaze_0/libsrc/cpu_v2_0/src -s libs -e "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Compiling cpu"
+make[2]: Entering directory `D:/VivadoTutorials/FinalDesign/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/use_marker_tracker_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+rm -rf *.o
+make[2]: Leaving directory `D:/VivadoTutorials/FinalDesign/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/use_marker_tracker_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+"Running Make libs in microblaze_0/libsrc/intc_v3_0/src"
+make -C microblaze_0/libsrc/intc_v3_0/src -s libs -e "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Compiling intc"
+make[2]: Entering directory `D:/VivadoTutorials/FinalDesign/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/use_marker_tracker_bsp/microblaze_0/libsrc/intc_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `D:/VivadoTutorials/FinalDesign/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/use_marker_tracker_bsp/microblaze_0/libsrc/intc_v3_0/src'
+"Running Make libs in microblaze_0/libsrc/ov7670_marker_tracker_ip_v1_0/src"
+make -C microblaze_0/libsrc/ov7670_marker_tracker_ip_v1_0/src -s libs -e "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Compiling ov7670_marker_tracker_ip..."
+make[2]: Entering directory `D:/VivadoTutorials/FinalDesign/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/use_marker_tracker_bsp/microblaze_0/libsrc/ov7670_marker_tracker_ip_v1_0/src'
+rm -rf *.o
+make[2]: Leaving directory `D:/VivadoTutorials/FinalDesign/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/use_marker_tracker_bsp/microblaze_0/libsrc/ov7670_marker_tracker_ip_v1_0/src'
+"Running Make libs in microblaze_0/libsrc/song_ip_v1_0/src"
+make -C microblaze_0/libsrc/song_ip_v1_0/src -s libs -e "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Compiling song_ip..."
+make[2]: Entering directory `D:/VivadoTutorials/FinalDesign/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/use_marker_tracker_bsp/microblaze_0/libsrc/song_ip_v1_0/src'
+rm -rf *.o
+make[2]: Leaving directory `D:/VivadoTutorials/FinalDesign/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/use_marker_tracker_bsp/microblaze_0/libsrc/song_ip_v1_0/src'
+"Running Make libs in microblaze_0/libsrc/standalone_v4_0/src"
+make -C microblaze_0/libsrc/standalone_v4_0/src -s libs -e "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Compiling standalone";
+"Running Make libs in microblaze_0/libsrc/tft_v5_0/src"
+make -C microblaze_0/libsrc/tft_v5_0/src -s libs -e "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Compiling tft"
+make[2]: Entering directory `D:/VivadoTutorials/FinalDesign/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/use_marker_tracker_bsp/microblaze_0/libsrc/tft_v5_0/src'
+rm -rf *.o
+make[2]: Leaving directory `D:/VivadoTutorials/FinalDesign/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/use_marker_tracker_bsp/microblaze_0/libsrc/tft_v5_0/src'
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_0/src"
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s libs -e "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Compiling uartlite"
+make[2]: Entering directory `D:/VivadoTutorials/FinalDesign/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/use_marker_tracker_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `D:/VivadoTutorials/FinalDesign/ov7670_marker_tracker_use/ov7670_marker_tracker_use.sdk/SDK/SDK_Export/use_marker_tracker_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+'Finished building libraries'
+
+00:46:29 Build Finished (took 3s.698ms)
+

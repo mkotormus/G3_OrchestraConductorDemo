@@ -1,0 +1,99 @@
+{
+   guistr: "# # String gsaved with Nlview version 6.3.10  2014-03-03 bk=1.3043 VDI=34 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port tft_vsync -pg 1 -y 1210 -defaultsOSRD
+preplace port ampSD -pg 1 -y 390 -defaultsOSRD
+preplace port tft_hsync -pg 1 -y 1080 -defaultsOSRD
+preplace port OV7670_RESET -pg 1 -y 100 -defaultsOSRD
+preplace port OV7670_PWDN -pg 1 -y 80 -defaultsOSRD
+preplace port USB_Uart -pg 1 -y 490 -defaultsOSRD
+preplace port OV7670_XCLK -pg 1 -y 160 -defaultsOSRD
+preplace port OV7670_VSYNC -pg 1 -y 130 -defaultsOSRD
+preplace port OV7670_HREF -pg 1 -y 90 -defaultsOSRD
+preplace port OV7670_SIOC -pg 1 -y 120 -defaultsOSRD
+preplace port sys_clock -pg 1 -y 790 -defaultsOSRD
+preplace port speaker -pg 1 -y 330 -defaultsOSRD
+preplace port OV7670_SIOD -pg 1 -y 140 -defaultsOSRD
+preplace port DDR2 -pg 1 -y 610 -defaultsOSRD
+preplace port OV7670_PCLK -pg 1 -y 110 -defaultsOSRD
+preplace port reset -pg 1 -y 810 -defaultsOSRD
+preplace portBus tft_vga_r -pg 1 -y 1190 -defaultsOSRD
+preplace portBus tft_vga_g -pg 1 -y 1050 -defaultsOSRD
+preplace portBus OV7670_D -pg 1 -y 70 -defaultsOSRD
+preplace portBus tft_vga_b -pg 1 -y 940 -defaultsOSRD
+preplace inst axi_tft_0 -pg 1 -lvl 4 -y 980 -defaultsOSRD
+preplace inst xlslice_0 -pg 1 -lvl 6 -y 1100 -defaultsOSRD
+preplace inst xlslice_1 -pg 1 -lvl 6 -y 1190 -defaultsOSRD
+preplace inst mig_7series_0 -pg 1 -lvl 6 -y 650 -defaultsOSRD
+preplace inst xlslice_2 -pg 1 -lvl 6 -y 940 -defaultsOSRD
+preplace inst rst_mig_7series_0_81M -pg 1 -lvl 4 -y 500 -defaultsOSRD
+preplace inst microblaze_0_axi_periph -pg 1 -lvl 5 -y 470 -defaultsOSRD
+preplace inst microblaze_0_xlconcat -pg 1 -lvl 2 -y 260 -defaultsOSRD
+preplace inst mdm_1 -pg 1 -lvl 3 -y 890 -defaultsOSRD
+preplace inst microblaze_0_axi_intc -pg 1 -lvl 3 -y 590 -defaultsOSRD
+preplace inst song_ip_0 -pg 1 -lvl 6 -y 340 -defaultsOSRD
+preplace inst ov7670_marker_tracker_ip_0 -pg 1 -lvl 6 -y 110 -defaultsOSRD
+preplace inst axi_uartlite_0 -pg 1 -lvl 6 -y 500 -defaultsOSRD
+preplace inst microblaze_0 -pg 1 -lvl 4 -y 690 -defaultsOSRD
+preplace inst rst_clk_wiz_1_100M -pg 1 -lvl 2 -y 820 -defaultsOSRD
+preplace inst clk_wiz_1 -pg 1 -lvl 1 -y 800 -defaultsOSRD
+preplace inst microblaze_0_local_memory -pg 1 -lvl 6 -y 810 -defaultsOSRD
+preplace netloc mig_7series_0_mmcm_locked 1 3 4 950 210 NJ 210 NJ 420 2220
+preplace netloc OV7670_HREF_1 1 0 6 NJ 90 NJ 90 NJ 90 NJ 90 NJ 90 N
+preplace netloc mig_7series_0_DDR2 1 6 1 N
+preplace netloc microblaze_0_axi_periph_M04_AXI 1 3 3 990 830 NJ 920 1860
+preplace netloc song_ip_0_ampSD 1 6 1 2220
+preplace netloc xlslice_1_Dout 1 6 1 N
+preplace netloc axi_tft_0_tft_vga_b 1 4 2 NJ 940 N
+preplace netloc ov7670_marker_tracker_ip_0_OV7670_XCLK 1 6 1 N
+preplace netloc OV7670_D_1 1 0 6 NJ 70 NJ 70 NJ 70 NJ 70 NJ 70 N
+preplace netloc axi_uartlite_0_interrupt 1 1 6 340 330 NJ 180 NJ 180 NJ 180 NJ 250 2210
+preplace netloc microblaze_0_intr 1 2 1 690
+preplace netloc microblaze_0_dlmb__1 1 4 2 1520 780 NJ
+preplace netloc microblaze_0_Clk 1 1 5 350 730 670 710 970 780 1510 810 1930
+preplace netloc microblaze_0_axi_periph_M03_AXI 1 5 1 1880
+preplace netloc microblaze_0_intc_axi 1 2 4 700 490 NJ 200 NJ 200 1860
+preplace netloc microblaze_0_interrupt 1 3 1 950
+preplace netloc axi_tft_0_tft_vga_r 1 4 2 1450 1190 NJ
+preplace netloc axi_tft_0_tft_hsync 1 4 3 1530 1040 NJ 1040 NJ
+preplace netloc ov7670_marker_tracker_ip_0_OV7670_SIOC 1 6 1 N
+preplace netloc ov7670_marker_tracker_ip_0_OV7670_RESET 1 6 1 N
+preplace netloc axi_tft_0_tft_vsync 1 4 3 1470 1050 NJ 1050 NJ
+preplace netloc OV7670_PCLK_1 1 0 6 NJ 110 NJ 110 NJ 110 NJ 110 NJ 110 N
+preplace netloc sys_clock_1 1 0 1 N
+preplace netloc microblaze_0_axi_periph_M05_AXI 1 5 1 1870
+preplace netloc microblaze_0_axi_dp 1 4 1 1440
+preplace netloc axi_tft_0_tft_vga_g 1 4 2 1500 1100 NJ
+preplace netloc mig_7series_0_ui_clk 1 3 4 970 600 1490 890 NJ 890 2200
+preplace netloc rst_mig_7series_0_81M_peripheral_aresetn 1 4 2 1540 740 NJ
+preplace netloc ov7670_marker_tracker_ip_0_intr 1 1 6 350 340 NJ 190 NJ 190 NJ 190 NJ 260 2220
+preplace netloc rst_clk_wiz_1_100M_interconnect_aresetn 1 2 3 NJ 800 NJ 800 1470
+preplace netloc rst_clk_wiz_1_100M_bus_struct_reset 1 2 4 NJ 990 NJ 820 NJ 910 1960
+preplace netloc microblaze_0_axi_periph_M01_AXI 1 5 1 1890
+preplace netloc microblaze_0_ilmb__1 1 4 2 1500 800 NJ
+preplace netloc xlslice_2_Dout 1 6 1 N
+preplace netloc rst_clk_wiz_1_100M_peripheral_aresetn 1 2 4 700 980 980 840 1480 720 1900
+preplace netloc rst_clk_wiz_1_100M_mb_reset 1 2 2 680 720 NJ
+preplace netloc clk_wiz_1_locked 1 1 1 330
+preplace netloc axi_uartlite_0_UART 1 6 1 N
+preplace netloc clk_wiz_1_clk_out2 1 1 5 320 700 NJ 700 NJ 610 NJ 730 NJ
+preplace netloc mig_7series_0_ui_clk_sync_rst 1 3 4 990 220 NJ 220 NJ 430 2200
+preplace netloc microblaze_0_axi_periph_M02_AXI 1 5 1 1880
+preplace netloc song_ip_0_speaker 1 6 1 N
+preplace netloc clk_wiz_1_clk_out3 1 1 3 320 1030 NJ 1030 NJ
+preplace netloc Net 1 6 1 N
+preplace netloc OV7670_VSYNC_1 1 0 6 NJ 130 NJ 130 NJ 130 NJ 130 NJ 130 N
+preplace netloc axi_tft_0_M_AXI_MM 1 4 1 1460
+preplace netloc microblaze_0_debug 1 3 1 950
+preplace netloc reset_1 1 0 6 160 720 340 970 NJ 970 NJ 810 NJ 900 1950
+preplace netloc mdm_1_debug_sys_rst 1 1 3 350 960 NJ 960 950
+preplace netloc xlslice_0_Dout 1 6 1 2220
+preplace netloc ov7670_marker_tracker_ip_0_OV7670_PWDN 1 6 1 N
+levelinfo -pg 1 140 240 510 830 1220 1700 2080 2240
+",
+}
+{
+   da_axi4_cnt: "7",
+   da_board_cnt: "9",
+   da_mb_cnt: "1",
+}
