@@ -40,9 +40,9 @@ Vivado and Open Block Diagram menu options.
 	
 ##Authors:
 
-Parul Seth
-*Hardik Patel
-*Marian Kotormus
+Parul Seth,
+Hardik Patel,
+Marian Kotormus
 
 
 Aknowledgements:
