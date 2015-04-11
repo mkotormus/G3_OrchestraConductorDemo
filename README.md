@@ -4,10 +4,12 @@ Description:
 
 How to use:
 
+1. Add IP directory to the list of IP repostiories in Vivado Project Settings.
+
 Directory structure:
 
 /src/
-
+/doc/
 
 Authors:
 
@@ -17,4 +19,4 @@ Marian Kotormus
 
 Aknowledgements:
 
-Special thanks to Professor Paul Chow and Ehsan Ghasemi
+Special thanks to Dr. Chow and Ehsan Ghasemi
