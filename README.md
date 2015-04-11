@@ -1,7 +1,11 @@
 #Orchestra Conductor Demo
 
 ##Description:
-This project implements orchestra conductor game with aim to simulate change in 
+This project implements orchestra conductor game with aim to simulate changing tempo of a 
+soundtrack using gestures. The gestures are generated using conductor's baton with white-LED
+marker attached to its tip. The design uses OV7670 image sensor/camera to sample marker's
+trajectory and output it on a monitor. It also runs gesture recognition and changes tempo
+of the soundtrack based on the type of the last gesture. 
 
 Hardware Requirements:
 1. Xilinx Nexys4 DDR board
@@ -21,7 +25,8 @@ in Vivado and Open Block Diagram menu options. This is required to export design
 8. Make sure speakers are connected to mono audio output port. 
 9. Make sure monitor is connected to VGA output of the board.
 9. Make a gesture and observe the monitor as well as changes in the sound.
-
+10. Design gives a time frame of approximately 1 second for each gesture and then clears
+the buffer as well as monitor output to capture next gesture.
 
 ##Notes on gesture recognition
 1. Currently design support h, o-, horizontally-flipped c-shape and s-shaped gestures. See video
