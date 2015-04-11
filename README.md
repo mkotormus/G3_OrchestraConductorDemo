@@ -14,7 +14,7 @@ Vivado and Open Block Diagram menu options.
 6. Open "new" project clean, build and compile it.
 7. Run it if the board was previously programmed or program it now before running.
 
-N##otes on gesture recognition.
+##Notes on gesture recognition.
 	1. Use bright white LED as a marker.
 	2. Do not place bright white objects or lights in the field of view of the camera
 	   as they cause a lot of noize and distortion due to averaging being used.
@@ -22,11 +22,8 @@ N##otes on gesture recognition.
 ##Directory structure:
 
 	/src/
-
 		IP/
-
 			song_ip_1.0/
-	
 				This directory contains the song-ip custom core used to generate the doundtrack
 				for which we will be changing the tempo.
 			
@@ -44,8 +41,8 @@ N##otes on gesture recognition.
 ##Authors:
 
 Parul Seth
-Hardik Patel
-Marian Kotormus
+*Hardik Patel
+*Marian Kotormus
 
 
 Aknowledgements:
