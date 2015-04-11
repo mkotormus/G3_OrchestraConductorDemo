@@ -30,7 +30,7 @@ the buffer as well as monitor output to capture next gesture.
 
 ##Notes on gesture recognition
 1. Currently design support h, o-, horizontally-flipped c-shape and s-shaped gestures. See video
-under /doc/video.mp4 for demonstration.
+under /doc/demo.mp4 for demonstration.
 2. Use bright white LED as a marker.
 3. Do not place bright white objects or lights in the field of view of the camera
    as they cause a lot of noize and distortion due to averaging being used.
